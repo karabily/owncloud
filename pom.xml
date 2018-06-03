@@ -526,7 +526,7 @@
                     <url>jdbc:mysql://localhost:3306/ourcloud</url>
                     <defaultSchemaName>ourcloud</defaultSchemaName>
                     <username>root</username>
-                    <password></password>
+                    <password>root</password>
                     <referenceUrl>hibernate:spring:com.supinfo.ourcloud.domain?dialect=org.hibernate.dialect.MySQL5InnoDBDialect&amp;hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&amp;hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy</referenceUrl>
                     <verbose>true</verbose>
                     <logging>debug</logging>
