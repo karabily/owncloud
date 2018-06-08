@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "userToJob",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "login",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "job"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nameFile",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180606021903",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "job",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}
