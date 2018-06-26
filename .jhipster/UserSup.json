@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "userSup",
+            "otherEntityName": "user",
+            "relationshipType": "one-to-one",
+            "otherEntityField": "login",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "userSup"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20180609231457",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "user_sup",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

@@ -22,6 +22,9 @@
             <div class="alert alert-danger" *ngIf="doNotMatch" jhiTranslate="global.messages.error.dontmatch">
                 The password and its confirmation do not match!
             </div>
+            <div class="alert alert-danger" *ngIf="empty" jhiTranslate="global.messages.error.path">
+                Please feed file's path!
+            </div>
         </div>
     </div>
     <div class="row justify-content-center">
@@ -120,12 +123,6 @@
                 <a class="alert-link" (click)="openLogin()" jhiTranslate="global.messages.info.authenticated.link">sign in</a><span jhiTranslate="global.messages.info.authenticated.suffix">, you can try the default accounts:<br/>- Administrator (login="admin" and password="admin") <br/>- User (login="user" and password="user").</span>
             </div>
         </div>
-        <div class="col-md-4">
-            <br/>
-            <jhi-social provider="google"></jhi-social>
-            <jhi-social provider="facebook"></jhi-social>
-            <jhi-social provider="twitter"></jhi-social>
-            <!-- jhipster-needle-add-social-button -->
-        </div>
+        <div class="col-md-4"> </div>
     </div>
 </div>

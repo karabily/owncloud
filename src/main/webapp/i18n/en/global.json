@@ -8,6 +8,7 @@
             "entities": {
                 "main": "Entities",
                 "job": "Job",
+                "userSup": "User Sup",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
@@ -57,7 +58,8 @@
                 }
             },
             "error": {
-                "dontmatch": "The password and its confirmation do not match!"
+                "dontmatch": "The password and its confirmation do not match!",
+                "empty" : "EMPTY"
             },
             "validate": {
                 "newpassword": {

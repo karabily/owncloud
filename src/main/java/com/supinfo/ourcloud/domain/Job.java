@@ -36,6 +36,10 @@ public class Job implements Serializable {
     @Column(name = "name")
     private String name;
 
+
+
+    @Column(name = "filePath")
+    private String filePath;
     @ManyToOne
     private User userToJob;
 
@@ -100,7 +104,13 @@ public class Job implements Serializable {
         this.userToJob = user;
     }
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here, do not remove
+    public String getFilePath() {
+        return filePath;
+    }
 
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
     @Override
     public boolean equals(Object o) {
         if (this == o) {

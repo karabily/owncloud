@@ -70,6 +70,7 @@ public class JobResource {
      */
     @PostMapping("/jobs")
     @Timed
+
     public ResponseEntity<Job> createJob(@Valid @RequestBody Job job) throws URISyntaxException {
         log.debug("REST request to save Job : {}", job);
         if (job.getId() != null) {

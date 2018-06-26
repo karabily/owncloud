@@ -1,0 +1,23 @@
+
+{
+    "ourcloudApp": {
+        "userSup" : {
+            "home": {
+                "title": "UserSups",
+                "createLabel": "Créer un nouveau User Sup",
+                "createOrEditLabel": "Créer ou éditer un User Sup",
+                "search": "Recherche pour User Sup"
+            },
+            "created": "Un nouveau User Sup a été créé avec l'identifiant {{ param }}",
+            "updated": "Le User Sup avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le User Sup avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le User Sup {{ id }} ?"
+            },
+            "detail": {
+                "title": "User Sup"
+            },
+            "userSup": "User Sup"
+        }
+    }
+}

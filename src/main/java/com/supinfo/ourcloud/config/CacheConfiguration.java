@@ -49,6 +49,7 @@ public class CacheConfiguration {
             cm.createCache(com.supinfo.ourcloud.domain.OurFile.class.getName(), jcacheConfiguration);
 
             cm.createCache(com.supinfo.ourcloud.domain.Job.class.getName(), jcacheConfiguration);
+            cm.createCache(com.supinfo.ourcloud.domain.UserSup.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

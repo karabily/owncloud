@@ -8,6 +8,7 @@
             "entities": {
                 "main": "Entités",
                 "job": "Job",
+                "userSup": "User Sup",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
